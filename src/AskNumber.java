@@ -19,8 +19,6 @@ public class AskNumber {
                 System.out.println("Not a valid input, please try again");
             }
         } while (true);
-    
         return number;
     }
-    
 }

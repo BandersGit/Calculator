@@ -21,7 +21,6 @@ public class InputHandler {
         inputScan = new Scanner(System.in);
         askNumber = new AskNumber(inputScan);
         askOperator = new AskOperator(inputScan);
-        
     }
 
     public void Inputs(){

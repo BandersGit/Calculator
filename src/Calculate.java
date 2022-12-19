@@ -13,7 +13,6 @@ public class Calculate {
     }
 
     public int Calc(){
-
         if (operator.equals("+")) {
             result = Add();
         }else if (operator.equals("-")) {
@@ -49,6 +48,5 @@ public class Calculate {
             System.out.println("Error, Cannot divide by 0");
             return result;
         }
-        
     }
 }       

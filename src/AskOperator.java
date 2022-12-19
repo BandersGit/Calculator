@@ -18,7 +18,6 @@ public class AskOperator {
                 System.out.println("Not a valid input, please try again");
             }
         }
-
         return operator;
     }
 }
