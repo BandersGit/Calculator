@@ -8,6 +8,5 @@ public class App {
         Calculate calc = new Calculate(getInputs.GetFirstNumber(), getInputs.GetSecondNumber(), getInputs.GetOperator());
 
         System.out.println("The result is: " + calc.Calc());
-        
     }
 }
